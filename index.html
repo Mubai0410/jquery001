@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>字母消除游戏</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/demo.js"></script>
+    <style>
+        body {
+            width: 100%;
+            padding: 0;
+            margin: 0
+        }
+
+        /* 存放随机生成的字母的span的类样式 */
+        .letter {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            padding: 5px;
+        }
+
+        #start {
+            width: 100px;
+            text-align: center;
+            background-color: #0070b5;
+            color: #ffffff;
+            padding: 15px 15px;
+            margin: 0 auto
+        }
+
+        #start:hover {
+            cursor: pointer
+        }
+
+        #score {
+            font-size: 46px;
+            text-align: right;
+            top: 30px;
+            right: 50px;
+            display: none
+        }
+    </style>
+</head>
+<body>
+    <div id="score">0</div>
+    <div id="start">开始游戏</div>
+</body>
+</html>
